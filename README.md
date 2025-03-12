@@ -46,7 +46,7 @@ Vertical and horizontal alignment have always been confusing to me. Going forwar
 
 ### Useful resources
 
-- [Google fonts](https://www.example.com) - This helped me find the desired fonts. It offers a wide range of font families that you can incorporate into your project by embedding their links or importing them.
+- [Google fonts](https://fonts.google.com/) - This helped me find the desired fonts. It offers a wide range of font families that you can incorporate into your project by embedding their links or importing them.
 
 
 ## Author
