@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 16px;
+}
+.recipe{
+    padding: 30px;
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+}
+.hd-1{
+    color: hsl(24, 5%, 18%);
+}
+.hd-font1{
+    font-family: "Young Serif", serif;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.brown{
+    color: hsl(14, 45%, 36%);
+}
+.prep{
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 20px;
+    background: hsl(330, 100%, 98%);
+}
+.prep > h3{
+    color: hsl(332, 51%, 32%);
+}
+ul{
+    padding-left: 20px;
+}
+ul > li{
+    padding: 5px;
+}
+.prep > ul li::marker{
+    color: hsl(332, 51%, 32%);
+}
+.ingredients{
+    margin: 20px 0;
+}
+.ingredients > ul li::marker{
+    color: hsl(14, 45%, 36%);
+}
+.instr{
+    margin: 20px 0;
+}
+.inst-bold{
+    font-weight: 600;
+    color: hsl(24, 5%, 18%);
+}
+ol{
+    padding-left: 20px;
+}
+ol > li{
+    padding: 5px;
+}
+.instr > ol li::marker {
+    color: hsl(332, 51%, 32%);
+    font-weight: bolder;
+}
+.line{
+    border: 0.1px solid hsl(30, 18%, 87%);
+}
+
+.rw{
+    display: flex;
+    margin: 5px 0;
+}
+
+.weight{
+    color: hsl(14, 45%, 36%);
+    padding-left: 0;
+    font-weight: 700;
+}
+
+.nutri{
+    margin: 20px 0;
+}
+
+.end{
+    margin: 5px;
+    align-self: center;
+}
+/* Mobile*/
+@media (max-width: 767px) {
+    .box{
+        background: white;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-self: center;
+        width: 100vw;
+    }
+    #dish-img{
+        width: 100%;
+
+    }
+    .recipe{
+        padding: 30px;
+    }
+    .weight{
+        padding-left: 20px;
+    }
+    .col{
+        padding: 10px 0;
+        padding-left: 20px;
+        width: 50vw;
+    }
+}
+
+/* laptops and Large Desktops */
+@media (min-width: 1024px) {
+    body{
+        background-color: hsl(30, 54%, 90%)
+    }
+    .box{
+        margin: 20vh;
+        padding: 40px;
+        background: white;
+        border-radius: 22px;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-self: center;
+        width: 90vh;
+    }
+    #dish-img{
+        border-radius: 12px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .recipe{
+        padding: 10px;
+    }
+    .col{
+        padding: 10px 0;
+        padding-left: 35px;
+        width: 50vw;
+    }
+}
