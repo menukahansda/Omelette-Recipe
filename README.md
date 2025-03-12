@@ -27,7 +27,7 @@ This is how the page will look in a large screen.
 ### Links
 
 - Solution URL: [Github-repository](https://github.com/menukahansda/Omelette-Recipe)
-- Live Site URL: [Github-pages](https://your-live-site-url.com)
+- Live Site URL: [Github-pages](https://menukahansda.github.io/Omelette-Recipe/)
 
 ## My process
 
