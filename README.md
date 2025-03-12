@@ -17,7 +17,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ## Overview
 
-### Challenge
+### The-Challenge
 The challenge was to create a static recipe page using html and css. The recipe page template was given.
 
 ### Screenshot
